@@ -24,4 +24,11 @@
         </repository>
     </repositories>
 
+    <dependencies>
+        <dependency>
+            <groupId>com.typesafe.akka</groupId>
+            <artifactId>akka-stream-kafka_2.13</artifactId>
+            <version>4.0.2</version>
+        </dependency>
+    </dependencies>
 </project>
