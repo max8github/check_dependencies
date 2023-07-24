@@ -24,4 +24,32 @@
         </repository>
     </repositories>
 
+    <dependencies>
+        <dependency>
+            <groupId>com.typesafe.akka</groupId>
+            <artifactId>akka-http_2.13</artifactId>
+            <version>10.5.2</version>
+        </dependency>
+        <dependency>
+            <groupId>com.typesafe.akka</groupId>
+            <artifactId>akka-http-testkit_2.13</artifactId>
+            <version>10.5.2</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>com.typesafe.akka</groupId>
+            <artifactId>akka-http-jackson_2.13</artifactId>
+            <version>10.5.2</version>
+        </dependency>
+        <dependency>
+            <groupId>com.typesafe.akka</groupId>
+            <artifactId>akka-http-xml_2.13</artifactId>
+            <version>10.5.2</version>
+        </dependency>
+        <dependency>
+            <groupId>com.typesafe.akka</groupId>
+            <artifactId>akka-parsing_2.13</artifactId>
+            <version>10.5.2</version>
+        </dependency>
+    </dependencies>
 </project>
