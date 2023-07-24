@@ -1,0 +1,3 @@
+gradle.allprojects { project ->
+   project.repositories { mavenLocal() }
+}

@@ -1,0 +1,35 @@
+apply plugin: 'java'
+apply plugin: 'application'
+
+mainClassName = 'App'
+sourceCompatibility = 11
+targetCompatibility = 11
+version = '1.0'
+
+repositories {
+    maven {
+        url "https://repo.akka.io/maven"
+    }
+    mavenCentral()
+}
+def versions = [
+        ScalaBinary: "2.13"
+]
+dependencies {
+    implementation platform("com.typesafe.akka:akka-bom_2.13:2.8.0")
+    implementation "com.typesafe.akka:akka-cluster-sharding-typed_2.13"
+}
+
+task showMeCache doLast() {
+    configurations.compileClasspath.each { println it }
+}
+
+task printRepos {
+    doFirst {
+        project.repositories { repositories ->
+            repositories.forEach { repo ->
+                println("${repo.name}: ${repo.url}")
+            }
+        }
+    }
+}
