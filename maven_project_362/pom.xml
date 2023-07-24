@@ -24,4 +24,36 @@
         </repository>
     </repositories>
 
+    <dependencies>
+        <dependency>
+            <groupId>com.lightbend.akka</groupId>
+            <artifactId>akka-projection-cassandra_3</artifactId>
+            <version>1.5.0-M1</version>
+        </dependency>
+        <dependency>
+            <groupId>com.lightbend.akka</groupId>
+            <artifactId>akka-projection-r2dbc_3</artifactId>
+            <version>1.5.0-M1</version>
+        </dependency>
+        <dependency>
+            <groupId>com.lightbend.akka</groupId>
+            <artifactId>akka-projection-durable-state_3</artifactId>
+            <version>1.5.0-M1</version>
+        </dependency>
+        <dependency>
+            <groupId>com.lightbend.akka</groupId>
+            <artifactId>akka-projection-kafka_3</artifactId>
+            <version>1.5.0-M1</version>
+        </dependency>
+        <dependency>
+            <groupId>com.lightbend.akka</groupId>
+            <artifactId>akka-projection-jdbc_3</artifactId>
+            <version>1.5.0-M1</version>
+        </dependency>
+        <dependency>
+            <groupId>com.lightbend.akka</groupId>
+            <artifactId>akka-projection-testkit_3</artifactId>
+            <version>1.5.0-M1</version>
+        </dependency>
+    </dependencies>
 </project>
