@@ -24,4 +24,12 @@
         </repository>
     </repositories>
 
+    <dependencies>
+        <dependency>
+            <groupId>com.lightbend.akka.management</groupId>
+            <artifactId>akka-management_2.13</artifactId>
+            <version>1.4.1</version>
+        </dependency>
+    </dependencies>
+
 </project>
