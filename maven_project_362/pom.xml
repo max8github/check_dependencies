@@ -24,4 +24,11 @@
         </repository>
     </repositories>
 
+    <dependencies>
+        <dependency>
+            <groupId>com.lightbend.akka</groupId>
+            <artifactId>akka-persistence-r2dbc_3</artifactId>
+            <version>1.2.0-M3</version>
+        </dependency>
+    </dependencies>
 </project>
