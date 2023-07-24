@@ -24,4 +24,11 @@
         </repository>
     </repositories>
 
+    <dependencies>
+        <dependency>
+            <groupId>com.lightbend.akka</groupId>
+            <artifactId>akka-persistence-jdbc_2.13</artifactId>
+            <version>5.2.1</version>
+        </dependency>
+    </dependencies>
 </project>
